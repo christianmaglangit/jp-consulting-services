@@ -10,4 +10,7 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
+    build: {
+        outDir: 'public/dist',  // Ensure Vite outputs to the public/dist folder
+    },
 });
